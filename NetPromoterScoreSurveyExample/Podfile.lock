@@ -1,0 +1,16 @@
+PODS:
+  - ADNetPromoterScoreSurvey (0.0.8)
+
+DEPENDENCIES:
+  - ADNetPromoterScoreSurvey (from `..`)
+
+EXTERNAL SOURCES:
+  ADNetPromoterScoreSurvey:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  ADNetPromoterScoreSurvey: 5881c2d7e3266875e5f47fe4e52f481bd27cdf1f
+
+PODFILE CHECKSUM: 68ae3a097c699cfa88cc100ee5bd0eeb9a000c8b
+
+COCOAPODS: 1.1.1
