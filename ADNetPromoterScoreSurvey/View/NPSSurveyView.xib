@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NPSSurveyView" customModule="ADNetPromoterScoreSurvey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e1p-cs-OWS" userLabel="SurveyBackground">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ST9-8M-jDr" userLabel="ContainerView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ST9-8M-jDr" secondAttribute="bottom" id="2Q0-BA-TGb"/>
+                <constraint firstItem="ST9-8M-jDr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5j2-Pf-Hd7"/>
+                <constraint firstItem="e1p-cs-OWS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7cd-7k-waz"/>
+                <constraint firstAttribute="bottom" secondItem="e1p-cs-OWS" secondAttribute="bottom" id="Dl6-kf-tjO"/>
+                <constraint firstAttribute="trailing" secondItem="ST9-8M-jDr" secondAttribute="trailing" id="blD-w3-KN5"/>
+                <constraint firstAttribute="trailing" secondItem="e1p-cs-OWS" secondAttribute="trailing" id="kE6-7B-h1H"/>
+                <constraint firstItem="e1p-cs-OWS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oiI-ve-Apg"/>
+                <constraint firstItem="ST9-8M-jDr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zZ3-rS-bxv"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
