@@ -1,6 +1,0 @@
-framework module ADNetPromoterScoreSurvey {
-  umbrella header "ADNetPromoterScoreSurvey-umbrella.h"
-
-  export *
-  module * { export * }
-}

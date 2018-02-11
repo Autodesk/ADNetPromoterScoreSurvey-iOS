@@ -1,8 +1,0 @@
-platform :ios, '9.0'
-
-target 'NetPromoterScoreSurveyExample' do
-
-  use_frameworks!
-
-  pod 'ADNetPromoterScoreSurvey', :path => '..'
-end
