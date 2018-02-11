@@ -1,0 +1,6 @@
+framework module Pods_NetPromoterScoreSurveyExample {
+  umbrella header "Pods-NetPromoterScoreSurveyExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
