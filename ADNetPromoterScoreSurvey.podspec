@@ -13,8 +13,11 @@ Pod::Spec.new do |s|
     NPS has been widely adopted with more than two thirds of Fortune 1000 companies using the metric.
                    DESC
 
-  s.homepage     = "http://autodesk.com"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/Autodesk/ADNetPromoterScoreSurvey-iOS"
+
+  s.screenshots  = ["https://raw.githubusercontent.com/Autodesk/ADNetPromoterScoreSurvey-iOS/master/Assets/iphone1.png",
+                    "https://raw.githubusercontent.com/Autodesk/ADNetPromoterScoreSurvey-iOS/master/Assets/iphone2.png",
+                    "https://raw.githubusercontent.com/Autodesk/ADNetPromoterScoreSurvey-iOS/master/Assets/iphone3.png"]
 
   s.license      = "MIT"
 
@@ -28,5 +31,7 @@ Pod::Spec.new do |s|
   s.source_files  = "ADNetPromoterScoreSurvey/**/*.{h,m,swift}"
 
   s.resources = "ADNetPromoterScoreSurvey/**/*.{xib,xcassets}"
-  
+
+  s.swift_version = "3.2"
+
 end
