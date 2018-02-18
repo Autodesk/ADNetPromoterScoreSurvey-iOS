@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.resources = "ADNetPromoterScoreSurvey/**/*.{xib,xcassets}"
 
-  s.swift_version = "3.2"
+  s.swift_version = "4.0"
 
 end
