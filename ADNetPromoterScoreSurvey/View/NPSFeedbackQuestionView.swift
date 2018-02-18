@@ -188,12 +188,12 @@ class NPSFeedbackQuestionView: NPSBaseView {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
     }
     
-    func dismissKeyboard() {
+    @objc func dismissKeyboard() {
         
         self.endEditing(true)
     }
     
-    func keyboardWillChange(notification: NSNotification) {
+    @objc func keyboardWillChange(notification: NSNotification) {
         
         // Animate view up only if the vertical size is bigger then compact
         guard self.traitCollection.verticalSizeClass != .compact else { return }

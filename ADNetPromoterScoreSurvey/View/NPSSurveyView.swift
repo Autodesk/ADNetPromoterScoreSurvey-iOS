@@ -16,7 +16,7 @@ fileprivate extension UIView
         
         let horisontalFormat    = "H:|[view]|"
         let verticalFormat      = "V:|[view]|"
-        let priority            = UILayoutPriorityRequired
+        let priority            = UILayoutPriority.required
         
         let horisontalConstraints = NSLayoutConstraint.constraints(withVisualFormat: horisontalFormat,
                                                                    options: [],
