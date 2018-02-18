@@ -23,7 +23,7 @@ public enum NetPromoterType{
     case detractor
 }
 
-public class ADNetPromoterScoreSurvey : NSObject
+@objc public class ADNetPromoterScoreSurvey : NSObject
 {
     public weak var delegate : NetPromoterScoreSurveyDelegate?
     public var appearance    : NPSAppearance
@@ -60,12 +60,12 @@ public class ADNetPromoterScoreSurvey : NSObject
         self.surveyView = customSurveyView
     }
     
-    public func showSurvey(onViewController viewController: UIViewController){
+    @objc public func showSurvey(onViewController viewController: UIViewController){
         
         self.surveyView?.showSurvey(onViewController: viewController)
     }
     
-    public func closeSurvey(){
+    @objc public func closeSurvey(){
         
         self.surveyView?.closeSurvey()
     }

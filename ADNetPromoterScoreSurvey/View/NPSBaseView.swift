@@ -55,7 +55,7 @@ class NPSBaseView: UIView {
         completionBlock?()
     }
     
-    func handleSwipeDownGesture(gesture: UISwipeGestureRecognizer) -> Void {
+    @objc func handleSwipeDownGesture(gesture: UISwipeGestureRecognizer) -> Void {
         
     }
     

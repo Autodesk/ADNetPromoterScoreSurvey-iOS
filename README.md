@@ -13,7 +13,7 @@ ADNetPromoterScoreSurvey is an iOS component that presents [Net Promoter Score (
 
 ## Support and requirements
 * iOS 9 and higher
-* Swift 3
+* Swift 4
 * Supports iPhone X
 
 ## Installation
