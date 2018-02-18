@@ -17,7 +17,7 @@ ADNetPromoterScoreSurvey is an iOS component that presents [Net Promoter Score (
 * Supports iPhone X
 
 ## Installation
-#### Cocoapods
+#### Cocoapods (Version 1.4.0 or later)
 `pod 'ADNetPromoterScoreSurvey'`
 
 ## Getting started
