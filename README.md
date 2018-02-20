@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Autodesk/ADNetPromoterScoreSurvey-iOS.svg?branch=master)](https://travis-ci.org/Autodesk/ADNetPromoterScoreSurvey-iOS)
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/ADNetPromoterScoreSurvey.svg)](http://cocoadocs.org/docsets/ADNetPromoterScoreSurvey)
+[![Swift Version](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://swift.org)
+[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)](https://developer.apple.com/ios)
 
 ADNetPromoterScoreSurvey is an iOS component that presents [Net Promoter Score (NPS)](https://en.wikipedia.org/wiki/Net_Promoter) survey dialog to the user.
 
