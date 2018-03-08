@@ -16,4 +16,5 @@ import Foundation
     @objc optional func netPromoterScoreDidPressEditScore(_ npsSurvey: ADNetPromoterScoreSurvey)
     @objc optional func netPromoterScoreSurveryCompleted(_ npsSurvey: ADNetPromoterScoreSurvey, surveyResult: NPSResult)
     @objc optional func netPromoterScoreDidPressClose(_ npsSurvey: ADNetPromoterScoreSurvey, fromView: NetPromoterScoreViewType)
+    @objc optional func netPromoterScoreAsksForComments (_ npsSurvey: ADNetPromoterScoreSurvey) -> Bool
 }

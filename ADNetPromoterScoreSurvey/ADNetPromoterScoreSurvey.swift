@@ -32,7 +32,6 @@ public class ADNetPromoterScoreSurvey : NSObject
     public var currentSelectedScore: Int?{
         
         get{
-            
             return self.lastSelectedScore
         }
     }
@@ -46,7 +45,7 @@ public class ADNetPromoterScoreSurvey : NSObject
     }
     
     fileprivate var surveyView          : NPSSurveyViewProtocol?
-    fileprivate var lastSelectedScore   : Int?
+    fileprivate var lastSelectedScore   : Int = -1
     
     public override init() {
         
@@ -101,6 +100,15 @@ public class ADNetPromoterScoreSurvey : NSObject
             return .unknown
         }
     }
+    
+    fileprivate func finalizeSurvey(_ userFeedBack: String) {
+        let finalResult = NPSResult(finalScore:   self.lastSelectedScore,
+                                    feedbackText: userFeedBack,
+                                    promoterType: self.getPromoterType(forScore: self.lastSelectedScore))
+        
+        self.delegate?.netPromoterScoreSurveryCompleted?(self, surveyResult: finalResult)
+        self.surveyView?.showThankYouView()
+    }
 }
 
 // MARK: --- NPSSurveyViewDelegate Implementation ---
@@ -122,7 +130,14 @@ extension ADNetPromoterScoreSurvey : NPSSurveyViewDelegate{
         
         self.lastSelectedScore = score
         self.delegate?.netPromoterScoreDidPressSendScore?(self, selectedScore: score)
-        self.surveyView?.continueToSendDetailsView(promoterType: getPromoterType(forScore: score))
+        
+        
+        guard let shouldShowComments = delegate?.netPromoterScoreAsksForComments?(self), !shouldShowComments else {
+            self.surveyView?.continueToSendDetailsView(promoterType: getPromoterType(forScore: score))
+            return
+        }
+        
+        finalizeSurvey("")
     }
     
     func surveyViewDidPressEditScore(_ surveyView: NPSSurveyViewProtocol){
@@ -132,13 +147,7 @@ extension ADNetPromoterScoreSurvey : NPSSurveyViewDelegate{
     }
     
     func surveyViewDidPressSendFeedback(_ surveyView: NPSSurveyViewProtocol, feedbackText: String){
-        
-        let finalResult = NPSResult(finalScore:   self.lastSelectedScore ?? -1,
-                                    feedbackText: feedbackText,
-                                    promoterType: self.getPromoterType(forScore: self.lastSelectedScore ?? -1))
-        
-        self.delegate?.netPromoterScoreSurveryCompleted?(self, surveyResult: finalResult)
-        self.surveyView?.showThankYouView()
+        finalizeSurvey(feedbackText)
     }
     
     func surveyViewAppearance(_ surveyView: NPSSurveyViewProtocol, forView: NetPromoterScoreViewType) -> NPSAppearance {

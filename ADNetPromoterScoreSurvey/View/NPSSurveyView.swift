@@ -51,7 +51,7 @@ class NPSSurveyView: NPSBaseView
     fileprivate var _scoreQuestionView: NPSScoreQuestionView?
     fileprivate var _feedbackQuestionView: NPSFeedbackQuestionView?
     fileprivate var _thankYouView: NPSThankYouView?
-
+    fileprivate var visibleView: NPSBaseView?
     fileprivate var scoreQuestionView: NPSScoreQuestionView? {
         
         get{
@@ -139,7 +139,7 @@ class NPSSurveyView: NPSBaseView
         self.addSubview(self.scoreQuestionView!)
         self.fillWithView(self.scoreQuestionView!)
         self.scoreQuestionView?.animateIn(withDuration: 0.4){
-            
+            self.visibleView = self.scoreQuestionView
             self.delegate?.surveyViewDidChange(self, toView: .scoreQuestionView)
         }
     }
@@ -159,7 +159,7 @@ class NPSSurveyView: NPSBaseView
         self.addSubview(self.feedbackQuestionView!)
         self.fillWithView(self.feedbackQuestionView!)
         self.feedbackQuestionView!.animateIn(withDuration: 0.3){
-            
+            self.visibleView = self.feedbackQuestionView
             self.delegate?.surveyViewDidChange(self, toView: .feedbackQuestionView)
         }
     }
@@ -218,7 +218,7 @@ extension NPSSurveyView : NPSSurveyViewProtocol{
     
     func continueToSendDetailsView(promoterType: NetPromoterType){
         
-        self.scoreQuestionView?.animateOut(withDuration: 0.2, completionBlock: {
+        self.visibleView?.animateOut(withDuration: 0.2, completionBlock: {
             
             self.scoreQuestionView?.removeFromSuperview()
             self.feedbackQuestionView?.updateUI(forPromoter: promoterType)
@@ -228,7 +228,7 @@ extension NPSSurveyView : NPSSurveyViewProtocol{
     
     func backToSendScoreView(){
         
-        self.feedbackQuestionView?.animateOut(withDuration: 0.3){
+        self.visibleView?.animateOut(withDuration: 0.3){
             
             self.showScoreQuestionView()
         }
@@ -248,14 +248,14 @@ extension NPSSurveyView : NPSSurveyViewProtocol{
             self.thankYouView!.appearance = viewAppearance
         }
         
-        self.feedbackQuestionView?.animateOut(withDuration: 0.3){
+        self.visibleView?.animateOut(withDuration: 0.3){
             
             self.feedbackQuestionView?.removeFromSuperview()
             self.addSubview(self.thankYouView!)
             self.fillWithView(self.thankYouView!)
             
             self.thankYouView!.animateIn(withDuration: 0.27){
-                
+                self.visibleView = self.thankYouView
                 self.delegate?.surveyViewDidChange(self, toView: .thankYouView)
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)){
@@ -267,23 +267,7 @@ extension NPSSurveyView : NPSSurveyViewProtocol{
     }
     
     func getCurrentView() -> NPSBaseView?{
-        
-        if (self._scoreQuestionView != nil && self.scoreQuestionView!.isCurrentlyPresented()){
-            
-            return self.scoreQuestionView
-        }
-
-        if (self._feedbackQuestionView != nil && self.feedbackQuestionView!.isCurrentlyPresented()){
-            
-            return self.feedbackQuestionView
-        }
-        
-        if (self._thankYouView != nil && self.thankYouView!.isCurrentlyPresented()){
-            
-            return self.thankYouView
-        }
-        
-        return nil
+        return self.visibleView
     }
 }
 
