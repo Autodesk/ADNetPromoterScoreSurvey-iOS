@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 public class NPSScoreQuestionViewAppearance: NSObject{
     
     public var questionText     = "How likely are you to recommend the app to a friend or colleague?"

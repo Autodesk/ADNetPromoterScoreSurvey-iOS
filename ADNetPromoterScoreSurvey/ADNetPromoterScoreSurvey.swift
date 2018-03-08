@@ -23,7 +23,8 @@ public enum NetPromoterType{
     case detractor
 }
 
-@objc public class ADNetPromoterScoreSurvey : NSObject
+@objcMembers
+public class ADNetPromoterScoreSurvey : NSObject
 {
     public weak var delegate : NetPromoterScoreSurveyDelegate?
     public var appearance    : NPSAppearance

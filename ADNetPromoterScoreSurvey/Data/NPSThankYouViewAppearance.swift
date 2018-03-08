@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 public class NPSThankYouViewAppearance : NSObject {
 
     public var thankYouMessageText = "Thanks for your feedback"

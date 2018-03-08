@@ -1,5 +1,5 @@
 PODS:
-  - ADNetPromoterScoreSurvey (1.0.0)
+  - ADNetPromoterScoreSurvey (2.0.0)
 
 DEPENDENCIES:
   - ADNetPromoterScoreSurvey (from `..`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  ADNetPromoterScoreSurvey: 46ff3d5a4b98f10c93333db12f490baac4ab969a
+  ADNetPromoterScoreSurvey: 27adbc43f88d934994fa755169288a79070988a6
 
 PODFILE CHECKSUM: 68ae3a097c699cfa88cc100ee5bd0eeb9a000c8b
 
