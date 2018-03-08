@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 public class NPSResult : NSObject{
 
     public var score: Int
