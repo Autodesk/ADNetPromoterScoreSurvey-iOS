@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176C0FCA22D297DF00196E74 /* LocalizationConstantSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C0FC922D297DF00196E74 /* LocalizationConstantSwift.swift */; };
 		F153688D1F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */; };
 		F15368921F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368911F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift */; };
 		F15368DA1F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		176C0FC922D297DF00196E74 /* LocalizationConstantSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationConstantSwift.swift; sourceTree = "<group>"; };
 		F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADNetPromoterScoreSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15368871F7D1381008343F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F153688C1F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADNetPromoterScoreSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 				F1ABC4011F8BD01D00D6D08A /* Resources */,
 				F15368871F7D1381008343F5 /* Info.plist */,
 				F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */,
+				176C0FC922D297DF00196E74 /* LocalizationConstantSwift.swift */,
 			);
 			path = ADNetPromoterScoreSurvey;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F15368791F7D1381008343F5;
@@ -357,6 +361,7 @@
 				F15368E11F7D435A008343F5 /* NPSSurveyView.swift in Sources */,
 				F1ABC3FC1F8B91E400D6D08A /* NPSScoreQuestionViewAppearance.swift in Sources */,
 				F1ABC4081F8CEB8F00D6D08A /* NPSSendButton.swift in Sources */,
+				176C0FCA22D297DF00196E74 /* LocalizationConstantSwift.swift in Sources */,
 				F1ABC3FA1F8B917200D6D08A /* NPSAppearance.swift in Sources */,
 				F1ABC4061F8CBFBF00D6D08A /* NPSFeedbackTextView.swift in Sources */,
 				F1ABC3FE1F8B921E00D6D08A /* NPSFeedbackQuestionViewAppearance.swift in Sources */,

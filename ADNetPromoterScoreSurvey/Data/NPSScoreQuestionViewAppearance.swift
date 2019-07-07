@@ -10,10 +10,10 @@ import UIKit
 
 public class NPSScoreQuestionViewAppearance: NSObject{
     
-    public var questionText     = "How likely are you to recommend the app to a friend or colleague?"
-    public var lowRankTitle     = "Not likely"
-    public var highRankTitle    = "Very likely"
-    public var sendButtonTitle  = "SEND"
+    public var questionText     = LOC_QUESTION_TEXT
+    public var lowRankTitle     = LOC_RANK_LOW_TITLE
+    public var highRankTitle    = LOC_RANK_HIGH_TITLE
+    public var sendButtonTitle  = LOC_BTN_SEND.localizedUppercase
     
     // Fonts
     public var questionTextFont             : UIFont?
