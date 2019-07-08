@@ -126,6 +126,11 @@
 		177C754422D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/NPSFeedbackQuestionView.strings"; sourceTree = "<group>"; };
 		177C754522D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/NPSThankYouView.strings"; sourceTree = "<group>"; };
 		177C754622D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		17F28FF122D2DEC900B91AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		17F28FF222D2DEC900B91AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		17F28FF322D2DEC900B91AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		17F28FF422D2DEC900B91AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		17F28FF522D2DEC900B91AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADNetPromoterScoreSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15368871F7D1381008343F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F153688C1F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADNetPromoterScoreSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,6 +376,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				Base,
 				de,
 				ja,
@@ -385,6 +391,7 @@
 				tr,
 				"zh-Hans",
 				"zh-Hant",
+				en,
 			);
 			mainGroup = F15368791F7D1381008343F5;
 			productRefGroup = F15368841F7D1381008343F5 /* Products */;
@@ -491,6 +498,7 @@
 				177C753B22D2C049001D4B7E /* tr */,
 				177C754022D2C054001D4B7E /* zh-Hans */,
 				177C754522D2C05B001D4B7E /* zh-Hant */,
+				17F28FF422D2DEC900B91AFB /* en */,
 			);
 			name = NPSThankYouView.xib;
 			sourceTree = "<group>";
@@ -512,6 +520,7 @@
 				177C753C22D2C049001D4B7E /* tr */,
 				177C754122D2C054001D4B7E /* zh-Hans */,
 				177C754622D2C05B001D4B7E /* zh-Hant */,
+				17F28FF522D2DEC900B91AFB /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -533,6 +542,7 @@
 				177C753822D2C049001D4B7E /* tr */,
 				177C753D22D2C054001D4B7E /* zh-Hans */,
 				177C754222D2C05B001D4B7E /* zh-Hant */,
+				17F28FF122D2DEC900B91AFB /* en */,
 			);
 			name = NPSSurveyView.xib;
 			sourceTree = "<group>";
@@ -554,6 +564,7 @@
 				177C753922D2C049001D4B7E /* tr */,
 				177C753E22D2C054001D4B7E /* zh-Hans */,
 				177C754322D2C05B001D4B7E /* zh-Hant */,
+				17F28FF222D2DEC900B91AFB /* en */,
 			);
 			name = NPSScoreQuestionView.xib;
 			sourceTree = "<group>";
@@ -575,6 +586,7 @@
 				177C753A22D2C049001D4B7E /* tr */,
 				177C753F22D2C054001D4B7E /* zh-Hans */,
 				177C754422D2C05B001D4B7E /* zh-Hant */,
+				17F28FF322D2DEC900B91AFB /* en */,
 			);
 			name = NPSFeedbackQuestionView.xib;
 			sourceTree = "<group>";
