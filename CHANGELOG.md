@@ -1,5 +1,9 @@
 # ADNetPromoterScoreSurvey Release Notes
 
+##### Next...
+* Fixed auto layout issues
+* Added multi language support
+
 ##### Version 2.0.0
 * specify swift_version parameter in podspec file
 * minimum required cocoapods version is now 1.4.0
