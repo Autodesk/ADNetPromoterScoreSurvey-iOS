@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		176C0FCA22D297DF00196E74 /* LocalizationConstantSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C0FC922D297DF00196E74 /* LocalizationConstantSwift.swift */; };
+		177C74F222D2A7DE001D4B7E /* NPSThankYouView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177C74F422D2A7DE001D4B7E /* NPSThankYouView.xib */; };
+		177C74F922D2A8C8001D4B7E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 177C74F722D2A8C8001D4B7E /* Localizable.strings */; };
+		177C74FC22D2BFC3001D4B7E /* NPSSurveyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177C74FE22D2BFC3001D4B7E /* NPSSurveyView.xib */; };
+		177C750122D2BFCF001D4B7E /* NPSScoreQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177C750322D2BFCF001D4B7E /* NPSScoreQuestionView.xib */; };
+		177C750622D2BFD8001D4B7E /* NPSFeedbackQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177C750822D2BFD8001D4B7E /* NPSFeedbackQuestionView.xib */; };
 		F153688D1F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */; };
 		F15368921F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368911F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift */; };
 		F15368DA1F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */; };
-		F15368DF1F7D42E4008343F5 /* NPSSurveyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */; };
 		F15368E11F7D435A008343F5 /* NPSSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368E01F7D435A008343F5 /* NPSSurveyView.swift */; };
 		F15368E31F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */; };
-		F162AA8A1F81397F00F0A948 /* NPSScoreQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */; };
 		F162AA8C1F8139AA00F0A948 /* NPSScoreQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */; };
 		F162AA8F1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162AA8E1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift */; };
 		F162AA911F813EDA00F0A948 /* NPSSurveyViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162AA901F813EDA00F0A948 /* NPSSurveyViewProtocol.swift */; };
@@ -31,9 +34,7 @@
 		F1D3603E1F9CCA4900D84F39 /* NPSSurveyViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */; };
 		F1D360421F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */; };
 		F1DA1E511F83A46D000C5E7D /* NPSFeedbackQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */; };
-		F1DA1E531F83A481000C5E7D /* NPSFeedbackQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DA1E521F83A481000C5E7D /* NPSFeedbackQuestionView.xib */; };
 		F1DA1E551F83AA87000C5E7D /* NPSThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E541F83AA87000C5E7D /* NPSThankYouView.swift */; };
-		F1DA1E571F83AA99000C5E7D /* NPSThankYouView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DA1E561F83AA99000C5E7D /* NPSThankYouView.xib */; };
 		F1DA1E591F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E581F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift */; };
 		F1DA1E5B1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E5A1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift */; };
 		F1DA1E5D1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E5C1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift */; };
@@ -55,16 +56,84 @@
 
 /* Begin PBXFileReference section */
 		176C0FC922D297DF00196E74 /* LocalizationConstantSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationConstantSwift.swift; sourceTree = "<group>"; };
+		177C74F322D2A7DE001D4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NPSThankYouView.xib; sourceTree = "<group>"; };
+		177C74F822D2A8C8001D4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C74FA22D2A8FE001D4B7E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C74FB22D2A8FE001D4B7E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C74FD22D2BFC3001D4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NPSSurveyView.xib; sourceTree = "<group>"; };
+		177C750022D2BFC9001D4B7E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C750222D2BFCF001D4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NPSScoreQuestionView.xib; sourceTree = "<group>"; };
+		177C750522D2BFD3001D4B7E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C750722D2BFD8001D4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NPSFeedbackQuestionView.xib; sourceTree = "<group>"; };
+		177C750A22D2BFE4001D4B7E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C750B22D2BFF2001D4B7E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C750C22D2BFF2001D4B7E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C750D22D2BFF2001D4B7E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C750E22D2BFF2001D4B7E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C750F22D2BFF2001D4B7E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C751022D2BFFE001D4B7E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C751122D2BFFE001D4B7E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C751222D2BFFE001D4B7E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C751322D2BFFE001D4B7E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C751422D2BFFE001D4B7E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C751522D2C007001D4B7E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C751622D2C007001D4B7E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C751722D2C007001D4B7E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C751822D2C007001D4B7E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C751922D2C007001D4B7E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C751A22D2C019001D4B7E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C751B22D2C019001D4B7E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C751C22D2C019001D4B7E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C751D22D2C019001D4B7E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C751E22D2C019001D4B7E /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C751F22D2C01F001D4B7E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C752022D2C01F001D4B7E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C752122D2C01F001D4B7E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C752222D2C01F001D4B7E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C752322D2C01F001D4B7E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C752422D2C025001D4B7E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C752522D2C025001D4B7E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C752622D2C025001D4B7E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C752722D2C025001D4B7E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C752822D2C025001D4B7E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C752922D2C02E001D4B7E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C752A22D2C02E001D4B7E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C752B22D2C02E001D4B7E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C752C22D2C02E001D4B7E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C752D22D2C02E001D4B7E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C752E22D2C03B001D4B7E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/NPSSurveyView.strings"; sourceTree = "<group>"; };
+		177C752F22D2C03B001D4B7E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/NPSScoreQuestionView.strings"; sourceTree = "<group>"; };
+		177C753022D2C03B001D4B7E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/NPSFeedbackQuestionView.strings"; sourceTree = "<group>"; };
+		177C753122D2C03B001D4B7E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/NPSThankYouView.strings"; sourceTree = "<group>"; };
+		177C753222D2C03B001D4B7E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		177C753322D2C041001D4B7E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C753422D2C041001D4B7E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C753522D2C041001D4B7E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C753622D2C041001D4B7E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C753722D2C041001D4B7E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C753822D2C049001D4B7E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/NPSSurveyView.strings; sourceTree = "<group>"; };
+		177C753922D2C049001D4B7E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/NPSScoreQuestionView.strings; sourceTree = "<group>"; };
+		177C753A22D2C049001D4B7E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/NPSFeedbackQuestionView.strings; sourceTree = "<group>"; };
+		177C753B22D2C049001D4B7E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/NPSThankYouView.strings; sourceTree = "<group>"; };
+		177C753C22D2C049001D4B7E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		177C753D22D2C054001D4B7E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/NPSSurveyView.strings"; sourceTree = "<group>"; };
+		177C753E22D2C054001D4B7E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/NPSScoreQuestionView.strings"; sourceTree = "<group>"; };
+		177C753F22D2C054001D4B7E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/NPSFeedbackQuestionView.strings"; sourceTree = "<group>"; };
+		177C754022D2C054001D4B7E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/NPSThankYouView.strings"; sourceTree = "<group>"; };
+		177C754122D2C054001D4B7E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		177C754222D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/NPSSurveyView.strings"; sourceTree = "<group>"; };
+		177C754322D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/NPSScoreQuestionView.strings"; sourceTree = "<group>"; };
+		177C754422D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/NPSFeedbackQuestionView.strings"; sourceTree = "<group>"; };
+		177C754522D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/NPSThankYouView.strings"; sourceTree = "<group>"; };
+		177C754622D2C05B001D4B7E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADNetPromoterScoreSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15368871F7D1381008343F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F153688C1F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADNetPromoterScoreSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15368911F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurveyTests.swift; sourceTree = "<group>"; };
 		F15368931F7D1381008343F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurvey.swift; sourceTree = "<group>"; };
-		F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSSurveyView.xib; sourceTree = "<group>"; };
 		F15368E01F7D435A008343F5 /* NPSSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyView.swift; sourceTree = "<group>"; };
 		F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ADNetPromoterScoreSurvey.podspec; sourceTree = "<group>"; };
-		F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSScoreQuestionView.xib; sourceTree = "<group>"; };
 		F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionView.swift; sourceTree = "<group>"; };
 		F162AA8E1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegate.swift; sourceTree = "<group>"; };
 		F162AA901F813EDA00F0A948 /* NPSSurveyViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewProtocol.swift; sourceTree = "<group>"; };
@@ -81,9 +150,7 @@
 		F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewMock.swift; sourceTree = "<group>"; };
 		F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegateMock.swift; sourceTree = "<group>"; };
 		F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionView.swift; sourceTree = "<group>"; };
-		F1DA1E521F83A481000C5E7D /* NPSFeedbackQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSFeedbackQuestionView.xib; sourceTree = "<group>"; };
 		F1DA1E541F83AA87000C5E7D /* NPSThankYouView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouView.swift; sourceTree = "<group>"; };
-		F1DA1E561F83AA99000C5E7D /* NPSThankYouView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSThankYouView.xib; sourceTree = "<group>"; };
 		F1DA1E581F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewDelegate.swift; sourceTree = "<group>"; };
 		F1DA1E5A1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionViewDelegate.swift; sourceTree = "<group>"; };
 		F1DA1E5C1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionViewDelegate.swift; sourceTree = "<group>"; };
@@ -162,15 +229,16 @@
 			isa = PBXGroup;
 			children = (
 				F1ABC4041F8CBF7D00D6D08A /* Controls */,
-				F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */,
+				177C74FE22D2BFC3001D4B7E /* NPSSurveyView.xib */,
 				F15368E01F7D435A008343F5 /* NPSSurveyView.swift */,
-				F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */,
+				177C750322D2BFCF001D4B7E /* NPSScoreQuestionView.xib */,
 				F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */,
-				F1DA1E521F83A481000C5E7D /* NPSFeedbackQuestionView.xib */,
+				177C750822D2BFD8001D4B7E /* NPSFeedbackQuestionView.xib */,
 				F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */,
-				F1DA1E561F83AA99000C5E7D /* NPSThankYouView.xib */,
+				177C74F422D2A7DE001D4B7E /* NPSThankYouView.xib */,
 				F1DA1E541F83AA87000C5E7D /* NPSThankYouView.swift */,
 				F1ABC4091F8CFFB400D6D08A /* NPSBaseView.swift */,
+				177C74F722D2A8C8001D4B7E /* Localizable.strings */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,8 +371,20 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				en,
+				Base,
+				de,
+				ja,
+				es,
+				fr,
+				he,
+				ar,
+				it,
+				ko,
+				"pt-BR",
+				ru,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = F15368791F7D1381008343F5;
 			productRefGroup = F15368841F7D1381008343F5 /* Products */;
@@ -322,15 +402,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DA1E531F83A481000C5E7D /* NPSFeedbackQuestionView.xib in Resources */,
-				F1DA1E571F83AA99000C5E7D /* NPSThankYouView.xib in Resources */,
-				F162AA8A1F81397F00F0A948 /* NPSScoreQuestionView.xib in Resources */,
+				177C750622D2BFD8001D4B7E /* NPSFeedbackQuestionView.xib in Resources */,
+				177C74F222D2A7DE001D4B7E /* NPSThankYouView.xib in Resources */,
+				177C750122D2BFCF001D4B7E /* NPSScoreQuestionView.xib in Resources */,
 				F1FB198B20027FC900EBB642 /* Contributing.md in Resources */,
 				F1FB198720027FB900EBB642 /* README.md in Resources */,
+				177C74F922D2A8C8001D4B7E /* Localizable.strings in Resources */,
 				F1FB198920027FC200EBB642 /* LICENSE.md in Resources */,
 				F1ABC4031F8BD07300D6D08A /* Images.xcassets in Resources */,
 				F15368E31F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec in Resources */,
-				F15368DF1F7D42E4008343F5 /* NPSSurveyView.xib in Resources */,
+				177C74FC22D2BFC3001D4B7E /* NPSSurveyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,11 +473,120 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		177C74F422D2A7DE001D4B7E /* NPSThankYouView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177C74F322D2A7DE001D4B7E /* Base */,
+				177C74FA22D2A8FE001D4B7E /* de */,
+				177C750E22D2BFF2001D4B7E /* ja */,
+				177C751322D2BFFE001D4B7E /* es */,
+				177C751822D2C007001D4B7E /* fr */,
+				177C751D22D2C019001D4B7E /* he */,
+				177C752222D2C01F001D4B7E /* ar */,
+				177C752722D2C025001D4B7E /* it */,
+				177C752C22D2C02E001D4B7E /* ko */,
+				177C753122D2C03B001D4B7E /* pt-BR */,
+				177C753622D2C041001D4B7E /* ru */,
+				177C753B22D2C049001D4B7E /* tr */,
+				177C754022D2C054001D4B7E /* zh-Hans */,
+				177C754522D2C05B001D4B7E /* zh-Hant */,
+			);
+			name = NPSThankYouView.xib;
+			sourceTree = "<group>";
+		};
+		177C74F722D2A8C8001D4B7E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177C74F822D2A8C8001D4B7E /* Base */,
+				177C74FB22D2A8FE001D4B7E /* de */,
+				177C750F22D2BFF2001D4B7E /* ja */,
+				177C751422D2BFFE001D4B7E /* es */,
+				177C751922D2C007001D4B7E /* fr */,
+				177C751E22D2C019001D4B7E /* he */,
+				177C752322D2C01F001D4B7E /* ar */,
+				177C752822D2C025001D4B7E /* it */,
+				177C752D22D2C02E001D4B7E /* ko */,
+				177C753222D2C03B001D4B7E /* pt-BR */,
+				177C753722D2C041001D4B7E /* ru */,
+				177C753C22D2C049001D4B7E /* tr */,
+				177C754122D2C054001D4B7E /* zh-Hans */,
+				177C754622D2C05B001D4B7E /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		177C74FE22D2BFC3001D4B7E /* NPSSurveyView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177C74FD22D2BFC3001D4B7E /* Base */,
+				177C750022D2BFC9001D4B7E /* de */,
+				177C750B22D2BFF2001D4B7E /* ja */,
+				177C751022D2BFFE001D4B7E /* es */,
+				177C751522D2C007001D4B7E /* fr */,
+				177C751A22D2C019001D4B7E /* he */,
+				177C751F22D2C01F001D4B7E /* ar */,
+				177C752422D2C025001D4B7E /* it */,
+				177C752922D2C02E001D4B7E /* ko */,
+				177C752E22D2C03B001D4B7E /* pt-BR */,
+				177C753322D2C041001D4B7E /* ru */,
+				177C753822D2C049001D4B7E /* tr */,
+				177C753D22D2C054001D4B7E /* zh-Hans */,
+				177C754222D2C05B001D4B7E /* zh-Hant */,
+			);
+			name = NPSSurveyView.xib;
+			sourceTree = "<group>";
+		};
+		177C750322D2BFCF001D4B7E /* NPSScoreQuestionView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177C750222D2BFCF001D4B7E /* Base */,
+				177C750522D2BFD3001D4B7E /* de */,
+				177C750C22D2BFF2001D4B7E /* ja */,
+				177C751122D2BFFE001D4B7E /* es */,
+				177C751622D2C007001D4B7E /* fr */,
+				177C751B22D2C019001D4B7E /* he */,
+				177C752022D2C01F001D4B7E /* ar */,
+				177C752522D2C025001D4B7E /* it */,
+				177C752A22D2C02E001D4B7E /* ko */,
+				177C752F22D2C03B001D4B7E /* pt-BR */,
+				177C753422D2C041001D4B7E /* ru */,
+				177C753922D2C049001D4B7E /* tr */,
+				177C753E22D2C054001D4B7E /* zh-Hans */,
+				177C754322D2C05B001D4B7E /* zh-Hant */,
+			);
+			name = NPSScoreQuestionView.xib;
+			sourceTree = "<group>";
+		};
+		177C750822D2BFD8001D4B7E /* NPSFeedbackQuestionView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177C750722D2BFD8001D4B7E /* Base */,
+				177C750A22D2BFE4001D4B7E /* de */,
+				177C750D22D2BFF2001D4B7E /* ja */,
+				177C751222D2BFFE001D4B7E /* es */,
+				177C751722D2C007001D4B7E /* fr */,
+				177C751C22D2C019001D4B7E /* he */,
+				177C752122D2C01F001D4B7E /* ar */,
+				177C752622D2C025001D4B7E /* it */,
+				177C752B22D2C02E001D4B7E /* ko */,
+				177C753022D2C03B001D4B7E /* pt-BR */,
+				177C753522D2C041001D4B7E /* ru */,
+				177C753A22D2C049001D4B7E /* tr */,
+				177C753F22D2C054001D4B7E /* zh-Hans */,
+				177C754422D2C05B001D4B7E /* zh-Hant */,
+			);
+			name = NPSFeedbackQuestionView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		F15368951F7D1381008343F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -457,6 +647,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
