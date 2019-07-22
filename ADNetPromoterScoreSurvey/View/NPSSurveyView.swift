@@ -31,7 +31,7 @@ fileprivate extension UIView
         
         
         let verticalConstraints = NSLayoutConstraint.constraints(withVisualFormat: verticalFormat,
-                                                                 options: NSLayoutFormatOptions(rawValue: 0),
+                                                                 options: NSLayoutConstraint.FormatOptions(rawValue: 0),
                                                                  metrics: nil,
                                                                  views: viewDict)
         for currConstraint in verticalConstraints{

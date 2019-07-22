@@ -95,7 +95,10 @@ class NPSFeedbackTextView: UITextView {
     
     private func commonInit() {
         
-        NotificationCenter.default.addObserver(self, selector: #selector(textDidChange),name: NSNotification.Name.UITextViewTextDidChange,object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(textDidChange),
+                                               name: UITextView.textDidChangeNotification,
+                                               object: nil)
         
         placeholderLabel.font                                       = font
         placeholderLabel.textColor                                  = placeholderColor
@@ -149,6 +152,6 @@ class NPSFeedbackTextView: UITextView {
     
     deinit {
         
-        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UITextViewTextDidChange,object: nil)
+        NotificationCenter.default.removeObserver(self, name: UITextView.textDidChangeNotification,object: nil)
     }
 }
