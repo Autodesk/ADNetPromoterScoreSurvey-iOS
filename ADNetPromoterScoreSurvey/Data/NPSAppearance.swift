@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class NPSAppearance : NSObject {
+@objcMembers public class NPSAppearance : NSObject {
 
     private static let _defaultAppearance = NPSAppearance()
     

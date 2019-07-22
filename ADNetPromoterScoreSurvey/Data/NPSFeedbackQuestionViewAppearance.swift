@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class NPSFeedbackQuestionViewAppearance : NSObject{
+@objcMembers public class NPSFeedbackQuestionViewAppearance : NSObject{
     
     public var titleForPromoter             = "Thanks for your feedback!"
     public var titleForPassive              = "Thanks for your feedback!"

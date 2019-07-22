@@ -27,6 +27,7 @@
 		F1ABC4061F8CBFBF00D6D08A /* NPSFeedbackTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC4051F8CBFBF00D6D08A /* NPSFeedbackTextView.swift */; };
 		F1ABC4081F8CEB8F00D6D08A /* NPSSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC4071F8CEB8F00D6D08A /* NPSSendButton.swift */; };
 		F1ABC40A1F8CFFB400D6D08A /* NPSBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC4091F8CFFB400D6D08A /* NPSBaseView.swift */; };
+		F1CD61F822E5E7F100AFEAF1 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F1CD61F722E5E7F100AFEAF1 /* CHANGELOG.md */; };
 		F1D3603E1F9CCA4900D84F39 /* NPSSurveyViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */; };
 		F1D360421F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */; };
 		F1DA1E511F83A46D000C5E7D /* NPSFeedbackQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */; };
@@ -61,7 +62,7 @@
 		F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurvey.swift; sourceTree = "<group>"; };
 		F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSSurveyView.xib; sourceTree = "<group>"; };
 		F15368E01F7D435A008343F5 /* NPSSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyView.swift; sourceTree = "<group>"; };
-		F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ADNetPromoterScoreSurvey.podspec; sourceTree = "<group>"; };
+		F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ADNetPromoterScoreSurvey.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSScoreQuestionView.xib; sourceTree = "<group>"; };
 		F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionView.swift; sourceTree = "<group>"; };
 		F162AA8E1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		F1ABC4051F8CBFBF00D6D08A /* NPSFeedbackTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackTextView.swift; sourceTree = "<group>"; };
 		F1ABC4071F8CEB8F00D6D08A /* NPSSendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSendButton.swift; sourceTree = "<group>"; };
 		F1ABC4091F8CFFB400D6D08A /* NPSBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSBaseView.swift; sourceTree = "<group>"; };
+		F1CD61F722E5E7F100AFEAF1 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewMock.swift; sourceTree = "<group>"; };
 		F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegateMock.swift; sourceTree = "<group>"; };
 		F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */,
+				F1CD61F722E5E7F100AFEAF1 /* CHANGELOG.md */,
 				F1FB198620027FB900EBB642 /* README.md */,
 				F1FB198820027FC200EBB642 /* LICENSE.md */,
 				F1FB198A20027FC900EBB642 /* Contributing.md */,
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DA1E531F83A481000C5E7D /* NPSFeedbackQuestionView.xib in Resources */,
+				F1CD61F822E5E7F100AFEAF1 /* CHANGELOG.md in Resources */,
 				F1DA1E571F83AA99000C5E7D /* NPSThankYouView.xib in Resources */,
 				F162AA8A1F81397F00F0A948 /* NPSScoreQuestionView.xib in Resources */,
 				F1FB198B20027FC900EBB642 /* Contributing.md in Resources */,

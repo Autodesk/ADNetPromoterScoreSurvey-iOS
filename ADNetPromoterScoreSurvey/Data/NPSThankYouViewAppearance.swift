@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class NPSThankYouViewAppearance : NSObject {
+@objcMembers public class NPSThankYouViewAppearance : NSObject {
 
     public var thankYouMessageText = "Thanks for your feedback"
     public var thankYouMessageFont : UIFont?
