@@ -10,7 +10,7 @@ import UIKit
 
 fileprivate extension UIView
 {
-    fileprivate func fillWithView(_ view: UIView){
+    func fillWithView(_ view: UIView){
         
         let viewDict = ["view" : view]
         
