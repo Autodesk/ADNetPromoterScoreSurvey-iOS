@@ -15,7 +15,7 @@ import UIKit
     case thankYouView
 }
 
-public enum NetPromoterType{
+@objc public enum NetPromoterType: Int {
     
     case unknown
     case promoter
@@ -23,12 +23,12 @@ public enum NetPromoterType{
     case detractor
 }
 
-@objc public class ADNetPromoterScoreSurvey : NSObject
+@objcMembers public class ADNetPromoterScoreSurvey : NSObject
 {
     public weak var delegate : NetPromoterScoreSurveyDelegate?
     public var appearance    : NPSAppearance
     
-    public var currentSelectedScore: Int?{
+    public var currentSelectedScore: Int{
         
         get{
             
@@ -40,12 +40,12 @@ public enum NetPromoterType{
         
         get{
             
-            return self.getPromoterType(forScore: self.currentSelectedScore ?? -1)
+            return self.getPromoterType(forScore: self.currentSelectedScore)
         }
     }
     
     fileprivate var surveyView          : NPSSurveyViewProtocol?
-    fileprivate var lastSelectedScore   : Int?
+    fileprivate var lastSelectedScore   : Int = -1
     
     public override init() {
         
@@ -132,9 +132,9 @@ extension ADNetPromoterScoreSurvey : NPSSurveyViewDelegate{
     
     func surveyViewDidPressSendFeedback(_ surveyView: NPSSurveyViewProtocol, feedbackText: String){
         
-        let finalResult = NPSResult(finalScore:   self.lastSelectedScore ?? -1,
+        let finalResult = NPSResult(finalScore:   self.lastSelectedScore,
                                     feedbackText: feedbackText,
-                                    promoterType: self.getPromoterType(forScore: self.lastSelectedScore ?? -1))
+                                    promoterType: self.getPromoterType(forScore: self.lastSelectedScore))
         
         self.delegate?.netPromoterScoreSurveryCompleted?(self, surveyResult: finalResult)
         self.surveyView?.showThankYouView()

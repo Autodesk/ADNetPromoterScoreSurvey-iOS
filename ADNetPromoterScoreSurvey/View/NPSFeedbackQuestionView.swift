@@ -180,12 +180,12 @@ class NPSFeedbackQuestionView: NPSBaseView {
     
     fileprivate func bindToKeyboard(){
         
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
     
     fileprivate func unbindFromKeyboard(){
         
-        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
     
     @objc func dismissKeyboard() {
@@ -200,12 +200,12 @@ class NPSFeedbackQuestionView: NPSBaseView {
         
         guard let userInfo = notification.userInfo else { return }
         
-        let duration    = userInfo[UIKeyboardAnimationDurationUserInfoKey] as! Double
-        let curve       = userInfo[UIKeyboardAnimationCurveUserInfoKey] as! UInt
-        let targetFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+        let duration    = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! Double
+        let curve       = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as! UInt
+        let targetFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         let newY        = targetFrame.origin.y-self.frame.height
         
-        UIView.animateKeyframes(withDuration: duration, delay: 0.0, options: UIViewKeyframeAnimationOptions(rawValue: curve), animations: {
+        UIView.animateKeyframes(withDuration: duration, delay: 0.0, options: UIView.KeyframeAnimationOptions(rawValue: curve), animations: {
             
             self.frame.origin.y = newY
         })
