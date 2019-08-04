@@ -32,7 +32,7 @@ import UIKit
         }
     }
     
-    func setBaseColor(_ color: UIColor) {
+    public func setBaseColor(_ color: UIColor) {
         let scoreLook = scoreQuestionViewAppearance
         scoreLook.sliderThumbColor = adjustBrightness(for: color, by: -10)
         scoreLook.sliderMinimumTrackTicksColor = UIColor.black.withAlphaComponent(0.2)
