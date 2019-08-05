@@ -107,6 +107,10 @@ self.npsSurvery.appearance.scoreQuestionViewAppearance.highRankTitleColor = UICo
 self.npsSurvery.appearance.feedbackQuestionViewAppearance.titleFontColor = UIColor.red
 self.npsSurvery.appearance.thankYouViewAppearance.backgroundColor  = UIColor.black
 ```
+You can set base color to use across all of the component views:
+```
+self.npsSurvery.appearance.setBaseColor(UIColor.red)
+```
 
 ## Example Project
 
