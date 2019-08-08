@@ -1,5 +1,8 @@
 # ADNetPromoterScoreSurvey Release Notes
 
+##### Version 2.1.1
+* Add option to set a base color of an NPSAppearnce [#12](https://github.com/Autodesk/ADNetPromoterScoreSurvey-iOS/pull/12) 
+
 ##### Version 2.1.0
 * Swift 5.0 Support
 * Fix Issue [#2](https://github.com/Autodesk/ADNetPromoterScoreSurvey-iOS/issues/2) - Some properties are unaccessible in Objective-C.

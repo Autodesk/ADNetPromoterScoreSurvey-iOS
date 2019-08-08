@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADNetPromoterScoreSurvey"
-  s.version      = "2.1.0"
+  s.version      = "2.1.1"
   s.summary      = "An iOS Net Promoter Score Survey"
 
   s.description  = <<-DESC
