@@ -7,37 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77B148CC2417C38200C7C7C2 /* ADNetPromoterScoreSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148A62417C38200C7C7C2 /* ADNetPromoterScoreSurvey.swift */; };
+		77B148CD2417C38200C7C7C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B148A82417C38200C7C7C2 /* Images.xcassets */; };
+		77B148CE2417C38200C7C7C2 /* NPSSurveyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B148AA2417C38200C7C7C2 /* NPSSurveyView.xib */; };
+		77B148CF2417C38200C7C7C2 /* NPSScoreQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148AB2417C38200C7C7C2 /* NPSScoreQuestionView.swift */; };
+		77B148D02417C38200C7C7C2 /* NPSThankYouView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B148AC2417C38200C7C7C2 /* NPSThankYouView.xib */; };
+		77B148D12417C38200C7C7C2 /* NPSBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148AD2417C38200C7C7C2 /* NPSBaseView.swift */; };
+		77B148D22417C38200C7C7C2 /* NPSScoreQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B148AE2417C38200C7C7C2 /* NPSScoreQuestionView.xib */; };
+		77B148D32417C38200C7C7C2 /* NPSSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B02417C38200C7C7C2 /* NPSSendButton.swift */; };
+		77B148D42417C38200C7C7C2 /* NPSFeedbackTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B12417C38200C7C7C2 /* NPSFeedbackTextView.swift */; };
+		77B148D52417C38200C7C7C2 /* NPSSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B22417C38200C7C7C2 /* NPSSlider.swift */; };
+		77B148D62417C38200C7C7C2 /* NPSFeedbackQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B32417C38200C7C7C2 /* NPSFeedbackQuestionView.swift */; };
+		77B148D72417C38200C7C7C2 /* NPSThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B42417C38200C7C7C2 /* NPSThankYouView.swift */; };
+		77B148D82417C38200C7C7C2 /* NPSFeedbackQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B148B52417C38200C7C7C2 /* NPSFeedbackQuestionView.xib */; };
+		77B148D92417C38200C7C7C2 /* NPSSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B62417C38200C7C7C2 /* NPSSurveyView.swift */; };
+		77B148DA2417C38200C7C7C2 /* NPSThankYouViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B82417C38200C7C7C2 /* NPSThankYouViewAppearance.swift */; };
+		77B148DB2417C38200C7C7C2 /* NPSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148B92417C38200C7C7C2 /* NPSResult.swift */; };
+		77B148DC2417C38200C7C7C2 /* NPSAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148BA2417C38200C7C7C2 /* NPSAppearance.swift */; };
+		77B148DD2417C38200C7C7C2 /* NPSScoreQuestionViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148BB2417C38200C7C7C2 /* NPSScoreQuestionViewAppearance.swift */; };
+		77B148DE2417C38200C7C7C2 /* NPSFeedbackQuestionViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148BC2417C38200C7C7C2 /* NPSFeedbackQuestionViewAppearance.swift */; };
+		77B148DF2417C38200C7C7C2 /* NPSScoreQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148BE2417C38200C7C7C2 /* NPSScoreQuestionViewDelegate.swift */; };
+		77B148E02417C38200C7C7C2 /* NPSThankYouViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148BF2417C38200C7C7C2 /* NPSThankYouViewDelegate.swift */; };
+		77B148E12417C38200C7C7C2 /* NPSSurveyViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148C02417C38200C7C7C2 /* NPSSurveyViewDelegate.swift */; };
+		77B148E22417C38200C7C7C2 /* NetPromoterScoreSurveyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148C12417C38200C7C7C2 /* NetPromoterScoreSurveyDelegate.swift */; };
+		77B148E32417C38200C7C7C2 /* NPSFeedbackQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148C22417C38200C7C7C2 /* NPSFeedbackQuestionViewDelegate.swift */; };
+		77B148E42417C38200C7C7C2 /* NPSSurveyViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148C32417C38200C7C7C2 /* NPSSurveyViewProtocol.swift */; };
+		77B148E52417C38200C7C7C2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77B148C42417C38200C7C7C2 /* Info.plist */; };
+		77B148E62417C38200C7C7C2 /* NPSSurveyViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148C82417C38200C7C7C2 /* NPSSurveyViewMock.swift */; };
+		77B148E72417C38200C7C7C2 /* NetPromoterScoreSurveyDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148C92417C38200C7C7C2 /* NetPromoterScoreSurveyDelegateMock.swift */; };
+		77B148E82417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B148CA2417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests.swift */; };
+		77B148E92417C38200C7C7C2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77B148CB2417C38200C7C7C2 /* Info.plist */; };
 		F153688D1F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */; };
-		F15368921F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368911F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift */; };
-		F15368DA1F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */; };
-		F15368DF1F7D42E4008343F5 /* NPSSurveyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */; };
-		F15368E11F7D435A008343F5 /* NPSSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15368E01F7D435A008343F5 /* NPSSurveyView.swift */; };
 		F15368E31F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */; };
-		F162AA8A1F81397F00F0A948 /* NPSScoreQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */; };
-		F162AA8C1F8139AA00F0A948 /* NPSScoreQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */; };
-		F162AA8F1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162AA8E1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift */; };
-		F162AA911F813EDA00F0A948 /* NPSSurveyViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162AA901F813EDA00F0A948 /* NPSSurveyViewProtocol.swift */; };
-		F17ECCD61F935AB200D0AA83 /* NPSSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17ECCD51F935AB200D0AA83 /* NPSSlider.swift */; };
-		F1ABC3F81F8A7BF300D6D08A /* NPSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC3F71F8A7BF300D6D08A /* NPSResult.swift */; };
-		F1ABC3FA1F8B917200D6D08A /* NPSAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC3F91F8B917200D6D08A /* NPSAppearance.swift */; };
-		F1ABC3FC1F8B91E400D6D08A /* NPSScoreQuestionViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC3FB1F8B91E400D6D08A /* NPSScoreQuestionViewAppearance.swift */; };
-		F1ABC3FE1F8B921E00D6D08A /* NPSFeedbackQuestionViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC3FD1F8B921E00D6D08A /* NPSFeedbackQuestionViewAppearance.swift */; };
-		F1ABC4001F8B924B00D6D08A /* NPSThankYouViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC3FF1F8B924B00D6D08A /* NPSThankYouViewAppearance.swift */; };
-		F1ABC4031F8BD07300D6D08A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1ABC4021F8BD07300D6D08A /* Images.xcassets */; };
-		F1ABC4061F8CBFBF00D6D08A /* NPSFeedbackTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC4051F8CBFBF00D6D08A /* NPSFeedbackTextView.swift */; };
-		F1ABC4081F8CEB8F00D6D08A /* NPSSendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC4071F8CEB8F00D6D08A /* NPSSendButton.swift */; };
-		F1ABC40A1F8CFFB400D6D08A /* NPSBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABC4091F8CFFB400D6D08A /* NPSBaseView.swift */; };
 		F1CD61F822E5E7F100AFEAF1 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F1CD61F722E5E7F100AFEAF1 /* CHANGELOG.md */; };
-		F1D3603E1F9CCA4900D84F39 /* NPSSurveyViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */; };
-		F1D360421F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */; };
-		F1DA1E511F83A46D000C5E7D /* NPSFeedbackQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */; };
-		F1DA1E531F83A481000C5E7D /* NPSFeedbackQuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DA1E521F83A481000C5E7D /* NPSFeedbackQuestionView.xib */; };
-		F1DA1E551F83AA87000C5E7D /* NPSThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E541F83AA87000C5E7D /* NPSThankYouView.swift */; };
-		F1DA1E571F83AA99000C5E7D /* NPSThankYouView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DA1E561F83AA99000C5E7D /* NPSThankYouView.xib */; };
-		F1DA1E591F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E581F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift */; };
-		F1DA1E5B1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E5A1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift */; };
-		F1DA1E5D1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E5C1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift */; };
-		F1DA1E5F1F84D889000C5E7D /* NPSThankYouViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA1E5E1F84D889000C5E7D /* NPSThankYouViewDelegate.swift */; };
 		F1FB198720027FB900EBB642 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F1FB198620027FB900EBB642 /* README.md */; };
 		F1FB198920027FC200EBB642 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = F1FB198820027FC200EBB642 /* LICENSE.md */; };
 		F1FB198B20027FC900EBB642 /* Contributing.md in Resources */ = {isa = PBXBuildFile; fileRef = F1FB198A20027FC900EBB642 /* Contributing.md */; };
@@ -54,40 +56,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77B148A62417C38200C7C7C2 /* ADNetPromoterScoreSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurvey.swift; sourceTree = "<group>"; };
+		77B148A82417C38200C7C7C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77B148AA2417C38200C7C7C2 /* NPSSurveyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSSurveyView.xib; sourceTree = "<group>"; };
+		77B148AB2417C38200C7C7C2 /* NPSScoreQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionView.swift; sourceTree = "<group>"; };
+		77B148AC2417C38200C7C7C2 /* NPSThankYouView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSThankYouView.xib; sourceTree = "<group>"; };
+		77B148AD2417C38200C7C7C2 /* NPSBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSBaseView.swift; sourceTree = "<group>"; };
+		77B148AE2417C38200C7C7C2 /* NPSScoreQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSScoreQuestionView.xib; sourceTree = "<group>"; };
+		77B148B02417C38200C7C7C2 /* NPSSendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSendButton.swift; sourceTree = "<group>"; };
+		77B148B12417C38200C7C7C2 /* NPSFeedbackTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackTextView.swift; sourceTree = "<group>"; };
+		77B148B22417C38200C7C7C2 /* NPSSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSlider.swift; sourceTree = "<group>"; };
+		77B148B32417C38200C7C7C2 /* NPSFeedbackQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionView.swift; sourceTree = "<group>"; };
+		77B148B42417C38200C7C7C2 /* NPSThankYouView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouView.swift; sourceTree = "<group>"; };
+		77B148B52417C38200C7C7C2 /* NPSFeedbackQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSFeedbackQuestionView.xib; sourceTree = "<group>"; };
+		77B148B62417C38200C7C7C2 /* NPSSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyView.swift; sourceTree = "<group>"; };
+		77B148B82417C38200C7C7C2 /* NPSThankYouViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouViewAppearance.swift; sourceTree = "<group>"; };
+		77B148B92417C38200C7C7C2 /* NPSResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSResult.swift; sourceTree = "<group>"; };
+		77B148BA2417C38200C7C7C2 /* NPSAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSAppearance.swift; sourceTree = "<group>"; };
+		77B148BB2417C38200C7C7C2 /* NPSScoreQuestionViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionViewAppearance.swift; sourceTree = "<group>"; };
+		77B148BC2417C38200C7C7C2 /* NPSFeedbackQuestionViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionViewAppearance.swift; sourceTree = "<group>"; };
+		77B148BE2417C38200C7C7C2 /* NPSScoreQuestionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionViewDelegate.swift; sourceTree = "<group>"; };
+		77B148BF2417C38200C7C7C2 /* NPSThankYouViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouViewDelegate.swift; sourceTree = "<group>"; };
+		77B148C02417C38200C7C7C2 /* NPSSurveyViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewDelegate.swift; sourceTree = "<group>"; };
+		77B148C12417C38200C7C7C2 /* NetPromoterScoreSurveyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegate.swift; sourceTree = "<group>"; };
+		77B148C22417C38200C7C7C2 /* NPSFeedbackQuestionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionViewDelegate.swift; sourceTree = "<group>"; };
+		77B148C32417C38200C7C7C2 /* NPSSurveyViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewProtocol.swift; sourceTree = "<group>"; };
+		77B148C42417C38200C7C7C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B148C82417C38200C7C7C2 /* NPSSurveyViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewMock.swift; sourceTree = "<group>"; };
+		77B148C92417C38200C7C7C2 /* NetPromoterScoreSurveyDelegateMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegateMock.swift; sourceTree = "<group>"; };
+		77B148CA2417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurveyTests.swift; sourceTree = "<group>"; };
+		77B148CB2417C38200C7C7C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15368831F7D1381008343F5 /* ADNetPromoterScoreSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADNetPromoterScoreSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F15368871F7D1381008343F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F153688C1F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADNetPromoterScoreSurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F15368911F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurveyTests.swift; sourceTree = "<group>"; };
-		F15368931F7D1381008343F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNetPromoterScoreSurvey.swift; sourceTree = "<group>"; };
-		F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSSurveyView.xib; sourceTree = "<group>"; };
-		F15368E01F7D435A008343F5 /* NPSSurveyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyView.swift; sourceTree = "<group>"; };
 		F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ADNetPromoterScoreSurvey.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSScoreQuestionView.xib; sourceTree = "<group>"; };
-		F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionView.swift; sourceTree = "<group>"; };
-		F162AA8E1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegate.swift; sourceTree = "<group>"; };
-		F162AA901F813EDA00F0A948 /* NPSSurveyViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewProtocol.swift; sourceTree = "<group>"; };
-		F17ECCD51F935AB200D0AA83 /* NPSSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSlider.swift; sourceTree = "<group>"; };
-		F1ABC3F71F8A7BF300D6D08A /* NPSResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSResult.swift; sourceTree = "<group>"; };
-		F1ABC3F91F8B917200D6D08A /* NPSAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSAppearance.swift; sourceTree = "<group>"; };
-		F1ABC3FB1F8B91E400D6D08A /* NPSScoreQuestionViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionViewAppearance.swift; sourceTree = "<group>"; };
-		F1ABC3FD1F8B921E00D6D08A /* NPSFeedbackQuestionViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionViewAppearance.swift; sourceTree = "<group>"; };
-		F1ABC3FF1F8B924B00D6D08A /* NPSThankYouViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouViewAppearance.swift; sourceTree = "<group>"; };
-		F1ABC4021F8BD07300D6D08A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F1ABC4051F8CBFBF00D6D08A /* NPSFeedbackTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackTextView.swift; sourceTree = "<group>"; };
-		F1ABC4071F8CEB8F00D6D08A /* NPSSendButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSendButton.swift; sourceTree = "<group>"; };
-		F1ABC4091F8CFFB400D6D08A /* NPSBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSBaseView.swift; sourceTree = "<group>"; };
 		F1CD61F722E5E7F100AFEAF1 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewMock.swift; sourceTree = "<group>"; };
-		F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPromoterScoreSurveyDelegateMock.swift; sourceTree = "<group>"; };
-		F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionView.swift; sourceTree = "<group>"; };
-		F1DA1E521F83A481000C5E7D /* NPSFeedbackQuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSFeedbackQuestionView.xib; sourceTree = "<group>"; };
-		F1DA1E541F83AA87000C5E7D /* NPSThankYouView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouView.swift; sourceTree = "<group>"; };
-		F1DA1E561F83AA99000C5E7D /* NPSThankYouView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPSThankYouView.xib; sourceTree = "<group>"; };
-		F1DA1E581F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSSurveyViewDelegate.swift; sourceTree = "<group>"; };
-		F1DA1E5A1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSScoreQuestionViewDelegate.swift; sourceTree = "<group>"; };
-		F1DA1E5C1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSFeedbackQuestionViewDelegate.swift; sourceTree = "<group>"; };
-		F1DA1E5E1F84D889000C5E7D /* NPSThankYouViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPSThankYouViewDelegate.swift; sourceTree = "<group>"; };
 		F1FB198620027FB900EBB642 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F1FB198820027FC200EBB642 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		F1FB198A20027FC900EBB642 /* Contributing.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Contributing.md; sourceTree = "<group>"; };
@@ -112,16 +114,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77B148A42417C38200C7C7C2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				77B148A52417C38200C7C7C2 /* ADNetPromoterScoreSurvey */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		77B148A52417C38200C7C7C2 /* ADNetPromoterScoreSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				77B148A62417C38200C7C7C2 /* ADNetPromoterScoreSurvey.swift */,
+				77B148A72417C38200C7C7C2 /* Resources */,
+				77B148A92417C38200C7C7C2 /* View */,
+				77B148B72417C38200C7C7C2 /* Data */,
+				77B148BD2417C38200C7C7C2 /* Protocols */,
+				77B148C42417C38200C7C7C2 /* Info.plist */,
+			);
+			path = ADNetPromoterScoreSurvey;
+			sourceTree = "<group>";
+		};
+		77B148A72417C38200C7C7C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77B148A82417C38200C7C7C2 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77B148A92417C38200C7C7C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77B148AA2417C38200C7C7C2 /* NPSSurveyView.xib */,
+				77B148AB2417C38200C7C7C2 /* NPSScoreQuestionView.swift */,
+				77B148AC2417C38200C7C7C2 /* NPSThankYouView.xib */,
+				77B148AD2417C38200C7C7C2 /* NPSBaseView.swift */,
+				77B148AE2417C38200C7C7C2 /* NPSScoreQuestionView.xib */,
+				77B148AF2417C38200C7C7C2 /* Controls */,
+				77B148B32417C38200C7C7C2 /* NPSFeedbackQuestionView.swift */,
+				77B148B42417C38200C7C7C2 /* NPSThankYouView.swift */,
+				77B148B52417C38200C7C7C2 /* NPSFeedbackQuestionView.xib */,
+				77B148B62417C38200C7C7C2 /* NPSSurveyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77B148AF2417C38200C7C7C2 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				77B148B02417C38200C7C7C2 /* NPSSendButton.swift */,
+				77B148B12417C38200C7C7C2 /* NPSFeedbackTextView.swift */,
+				77B148B22417C38200C7C7C2 /* NPSSlider.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		77B148B72417C38200C7C7C2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				77B148B82417C38200C7C7C2 /* NPSThankYouViewAppearance.swift */,
+				77B148B92417C38200C7C7C2 /* NPSResult.swift */,
+				77B148BA2417C38200C7C7C2 /* NPSAppearance.swift */,
+				77B148BB2417C38200C7C7C2 /* NPSScoreQuestionViewAppearance.swift */,
+				77B148BC2417C38200C7C7C2 /* NPSFeedbackQuestionViewAppearance.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		77B148BD2417C38200C7C7C2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				77B148BE2417C38200C7C7C2 /* NPSScoreQuestionViewDelegate.swift */,
+				77B148BF2417C38200C7C7C2 /* NPSThankYouViewDelegate.swift */,
+				77B148C02417C38200C7C7C2 /* NPSSurveyViewDelegate.swift */,
+				77B148C12417C38200C7C7C2 /* NetPromoterScoreSurveyDelegate.swift */,
+				77B148C22417C38200C7C7C2 /* NPSFeedbackQuestionViewDelegate.swift */,
+				77B148C32417C38200C7C7C2 /* NPSSurveyViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		77B148C52417C38200C7C7C2 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				77B148C62417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		77B148C62417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests */ = {
+			isa = PBXGroup;
+			children = (
+				77B148C72417C38200C7C7C2 /* Mocks */,
+				77B148CA2417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests.swift */,
+				77B148CB2417C38200C7C7C2 /* Info.plist */,
+			);
+			path = ADNetPromoterScoreSurveyTests;
+			sourceTree = "<group>";
+		};
+		77B148C72417C38200C7C7C2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				77B148C82417C38200C7C7C2 /* NPSSurveyViewMock.swift */,
+				77B148C92417C38200C7C7C2 /* NetPromoterScoreSurveyDelegateMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		F15368791F7D1381008343F5 = {
 			isa = PBXGroup;
 			children = (
+				77B148A42417C38200C7C7C2 /* Sources */,
+				77B148C52417C38200C7C7C2 /* Tests */,
 				F15368E21F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec */,
 				F1CD61F722E5E7F100AFEAF1 /* CHANGELOG.md */,
 				F1FB198620027FB900EBB642 /* README.md */,
 				F1FB198820027FC200EBB642 /* LICENSE.md */,
 				F1FB198A20027FC900EBB642 /* Contributing.md */,
-				F15368851F7D1381008343F5 /* ADNetPromoterScoreSurvey */,
-				F15368901F7D1381008343F5 /* ADNetPromoterScoreSurveyTests */,
 				F15368841F7D1381008343F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,98 +243,6 @@
 				F153688C1F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F15368851F7D1381008343F5 /* ADNetPromoterScoreSurvey */ = {
-			isa = PBXGroup;
-			children = (
-				F15368DD1F7D417B008343F5 /* View */,
-				F1ABC3F61F8A79A900D6D08A /* Data */,
-				F162AA8D1F813DB400F0A948 /* Protocols */,
-				F1ABC4011F8BD01D00D6D08A /* Resources */,
-				F15368871F7D1381008343F5 /* Info.plist */,
-				F15368D91F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift */,
-			);
-			path = ADNetPromoterScoreSurvey;
-			sourceTree = "<group>";
-		};
-		F15368901F7D1381008343F5 /* ADNetPromoterScoreSurveyTests */ = {
-			isa = PBXGroup;
-			children = (
-				F1D3603C1F9CBF0100D84F39 /* Mocks */,
-				F15368911F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift */,
-				F15368931F7D1381008343F5 /* Info.plist */,
-			);
-			path = ADNetPromoterScoreSurveyTests;
-			sourceTree = "<group>";
-		};
-		F15368DD1F7D417B008343F5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F1ABC4041F8CBF7D00D6D08A /* Controls */,
-				F15368DE1F7D42E4008343F5 /* NPSSurveyView.xib */,
-				F15368E01F7D435A008343F5 /* NPSSurveyView.swift */,
-				F162AA891F81397F00F0A948 /* NPSScoreQuestionView.xib */,
-				F162AA8B1F8139AA00F0A948 /* NPSScoreQuestionView.swift */,
-				F1DA1E521F83A481000C5E7D /* NPSFeedbackQuestionView.xib */,
-				F1DA1E501F83A46D000C5E7D /* NPSFeedbackQuestionView.swift */,
-				F1DA1E561F83AA99000C5E7D /* NPSThankYouView.xib */,
-				F1DA1E541F83AA87000C5E7D /* NPSThankYouView.swift */,
-				F1ABC4091F8CFFB400D6D08A /* NPSBaseView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F162AA8D1F813DB400F0A948 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				F162AA8E1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift */,
-				F162AA901F813EDA00F0A948 /* NPSSurveyViewProtocol.swift */,
-				F1DA1E581F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift */,
-				F1DA1E5A1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift */,
-				F1DA1E5C1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift */,
-				F1DA1E5E1F84D889000C5E7D /* NPSThankYouViewDelegate.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		F1ABC3F61F8A79A900D6D08A /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				F1ABC3F71F8A7BF300D6D08A /* NPSResult.swift */,
-				F1ABC3F91F8B917200D6D08A /* NPSAppearance.swift */,
-				F1ABC3FB1F8B91E400D6D08A /* NPSScoreQuestionViewAppearance.swift */,
-				F1ABC3FD1F8B921E00D6D08A /* NPSFeedbackQuestionViewAppearance.swift */,
-				F1ABC3FF1F8B924B00D6D08A /* NPSThankYouViewAppearance.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		F1ABC4011F8BD01D00D6D08A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F1ABC4021F8BD07300D6D08A /* Images.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		F1ABC4041F8CBF7D00D6D08A /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				F1ABC4051F8CBFBF00D6D08A /* NPSFeedbackTextView.swift */,
-				F1ABC4071F8CEB8F00D6D08A /* NPSSendButton.swift */,
-				F17ECCD51F935AB200D0AA83 /* NPSSlider.swift */,
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		F1D3603C1F9CBF0100D84F39 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				F1D3603D1F9CCA4900D84F39 /* NPSSurveyViewMock.swift */,
-				F1D360411F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift */,
-			);
-			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,16 +340,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DA1E531F83A481000C5E7D /* NPSFeedbackQuestionView.xib in Resources */,
 				F1CD61F822E5E7F100AFEAF1 /* CHANGELOG.md in Resources */,
-				F1DA1E571F83AA99000C5E7D /* NPSThankYouView.xib in Resources */,
-				F162AA8A1F81397F00F0A948 /* NPSScoreQuestionView.xib in Resources */,
 				F1FB198B20027FC900EBB642 /* Contributing.md in Resources */,
+				77B148CE2417C38200C7C7C2 /* NPSSurveyView.xib in Resources */,
+				77B148D82417C38200C7C7C2 /* NPSFeedbackQuestionView.xib in Resources */,
+				77B148D02417C38200C7C7C2 /* NPSThankYouView.xib in Resources */,
 				F1FB198720027FB900EBB642 /* README.md in Resources */,
+				77B148CD2417C38200C7C7C2 /* Images.xcassets in Resources */,
+				77B148D22417C38200C7C7C2 /* NPSScoreQuestionView.xib in Resources */,
+				77B148E92417C38200C7C7C2 /* Info.plist in Resources */,
+				77B148E52417C38200C7C7C2 /* Info.plist in Resources */,
 				F1FB198920027FC200EBB642 /* LICENSE.md in Resources */,
-				F1ABC4031F8BD07300D6D08A /* Images.xcassets in Resources */,
 				F15368E31F7D4581008343F5 /* ADNetPromoterScoreSurvey.podspec in Resources */,
-				F15368DF1F7D42E4008343F5 /* NPSSurveyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,26 +369,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DA1E5B1F84D863000C5E7D /* NPSScoreQuestionViewDelegate.swift in Sources */,
-				F162AA911F813EDA00F0A948 /* NPSSurveyViewProtocol.swift in Sources */,
-				F1ABC4001F8B924B00D6D08A /* NPSThankYouViewAppearance.swift in Sources */,
-				F1DA1E511F83A46D000C5E7D /* NPSFeedbackQuestionView.swift in Sources */,
-				F162AA8C1F8139AA00F0A948 /* NPSScoreQuestionView.swift in Sources */,
-				F1DA1E591F84D7BF000C5E7D /* NPSSurveyViewDelegate.swift in Sources */,
-				F162AA8F1F813DD000F0A948 /* NetPromoterScoreSurveyDelegate.swift in Sources */,
-				F1ABC3F81F8A7BF300D6D08A /* NPSResult.swift in Sources */,
-				F17ECCD61F935AB200D0AA83 /* NPSSlider.swift in Sources */,
-				F1DA1E5F1F84D889000C5E7D /* NPSThankYouViewDelegate.swift in Sources */,
-				F15368E11F7D435A008343F5 /* NPSSurveyView.swift in Sources */,
-				F1ABC3FC1F8B91E400D6D08A /* NPSScoreQuestionViewAppearance.swift in Sources */,
-				F1ABC4081F8CEB8F00D6D08A /* NPSSendButton.swift in Sources */,
-				F1ABC3FA1F8B917200D6D08A /* NPSAppearance.swift in Sources */,
-				F1ABC4061F8CBFBF00D6D08A /* NPSFeedbackTextView.swift in Sources */,
-				F1ABC3FE1F8B921E00D6D08A /* NPSFeedbackQuestionViewAppearance.swift in Sources */,
-				F15368DA1F7D40A4008343F5 /* ADNetPromoterScoreSurvey.swift in Sources */,
-				F1DA1E551F83AA87000C5E7D /* NPSThankYouView.swift in Sources */,
-				F1DA1E5D1F84D877000C5E7D /* NPSFeedbackQuestionViewDelegate.swift in Sources */,
-				F1ABC40A1F8CFFB400D6D08A /* NPSBaseView.swift in Sources */,
+				77B148D62417C38200C7C7C2 /* NPSFeedbackQuestionView.swift in Sources */,
+				77B148E72417C38200C7C7C2 /* NetPromoterScoreSurveyDelegateMock.swift in Sources */,
+				77B148D92417C38200C7C7C2 /* NPSSurveyView.swift in Sources */,
+				77B148E02417C38200C7C7C2 /* NPSThankYouViewDelegate.swift in Sources */,
+				77B148DB2417C38200C7C7C2 /* NPSResult.swift in Sources */,
+				77B148DE2417C38200C7C7C2 /* NPSFeedbackQuestionViewAppearance.swift in Sources */,
+				77B148D12417C38200C7C7C2 /* NPSBaseView.swift in Sources */,
+				77B148E42417C38200C7C7C2 /* NPSSurveyViewProtocol.swift in Sources */,
+				77B148D32417C38200C7C7C2 /* NPSSendButton.swift in Sources */,
+				77B148E82417C38200C7C7C2 /* ADNetPromoterScoreSurveyTests.swift in Sources */,
+				77B148D52417C38200C7C7C2 /* NPSSlider.swift in Sources */,
+				77B148DD2417C38200C7C7C2 /* NPSScoreQuestionViewAppearance.swift in Sources */,
+				77B148E12417C38200C7C7C2 /* NPSSurveyViewDelegate.swift in Sources */,
+				77B148D42417C38200C7C7C2 /* NPSFeedbackTextView.swift in Sources */,
+				77B148DC2417C38200C7C7C2 /* NPSAppearance.swift in Sources */,
+				77B148DF2417C38200C7C7C2 /* NPSScoreQuestionViewDelegate.swift in Sources */,
+				77B148E22417C38200C7C7C2 /* NetPromoterScoreSurveyDelegate.swift in Sources */,
+				77B148CC2417C38200C7C7C2 /* ADNetPromoterScoreSurvey.swift in Sources */,
+				77B148DA2417C38200C7C7C2 /* NPSThankYouViewAppearance.swift in Sources */,
+				77B148E32417C38200C7C7C2 /* NPSFeedbackQuestionViewDelegate.swift in Sources */,
+				77B148E62417C38200C7C7C2 /* NPSSurveyViewMock.swift in Sources */,
+				77B148CF2417C38200C7C7C2 /* NPSScoreQuestionView.swift in Sources */,
+				77B148D72417C38200C7C7C2 /* NPSThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D3603E1F9CCA4900D84F39 /* NPSSurveyViewMock.swift in Sources */,
-				F1D360421F9DCF4500D84F39 /* NetPromoterScoreSurveyDelegateMock.swift in Sources */,
-				F15368921F7D1381008343F5 /* ADNetPromoterScoreSurveyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +544,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ADNetPromoterScoreSurvey/Info.plist;
+				INFOPLIST_FILE = Sources/ADNetPromoterScoreSurvey/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.ADNetPromoterScoreSurvey;
@@ -545,7 +565,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ADNetPromoterScoreSurvey/Info.plist;
+				INFOPLIST_FILE = Sources/ADNetPromoterScoreSurvey/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.ADNetPromoterScoreSurvey;
