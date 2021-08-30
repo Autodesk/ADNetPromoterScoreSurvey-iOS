@@ -33,4 +33,5 @@ import UIKit
     public var sendButtonBackgroundColor    : UIColor?
     public var editScoreButtonTextColor     : UIColor?
     public var feedbackTextBlackgroundColor : UIColor?
+    public var feedbackTextBorderColor      : UIColor?
 }

@@ -40,8 +40,7 @@ class NPSFeedbackQuestionView: NPSBaseView {
         
         self.bindToKeyboard()
         self.feedbackTextView.layer.borderWidth = 1.0
-        
-        self.feedbackTextView.layer.borderColor = UIColor(red: 193.0/255.0, green: 193.0/255.0, blue: 193.0/255.0, alpha: 1.0).cgColor
+
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard)))
         
         self.editButton.titleLabel?.lineBreakMode = .byWordWrapping
@@ -68,6 +67,8 @@ class NPSFeedbackQuestionView: NPSBaseView {
         self.feedbackTextView.font              = feedbackQuestionViewAppearance.textFieldFont ?? self.feedbackTextView.font
         self.sendButton.titleLabel?.font        = feedbackQuestionViewAppearance.sendButtonTitleFont ?? self.sendButton.titleLabel?.font
         self.editButton.titleLabel?.font        = feedbackQuestionViewAppearance.editScoreButtonTitleFont ?? self.editButton.titleLabel?.font
+        
+        self.feedbackTextView.layer.borderColor = feedbackQuestionViewAppearance.feedbackTextBorderColor?.cgColor ?? UIColor(red: 193.0/255.0, green: 193.0/255.0, blue: 193.0/255.0, alpha: 1.0).cgColor
     }
 
     override func setupColors() {
