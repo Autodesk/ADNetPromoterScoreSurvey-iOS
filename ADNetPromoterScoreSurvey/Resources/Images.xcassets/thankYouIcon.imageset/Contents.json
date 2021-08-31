@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "tnx_icon_light_compressed.pdf",
+      "filename" : "tnx_icon_light_compressed (1).pdf",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "tnx_icon_dark_compressed.pdf",
+      "filename" : "tnx_icon_dark_compressed (1).pdf",
       "idiom" : "universal"
     }
   ],
