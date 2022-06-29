@@ -1,5 +1,8 @@
 # ADNetPromoterScoreSurvey Release Notes
 
+##### Version 2.1.2
+Adding option to change feedback text field border color + Updated thank you asset [#15](https://github.com/Autodesk/ADNetPromoterScoreSurvey-iOS/pull/15) 
+
 ##### Version 2.1.1
 * Add option to set a base color of an NPSAppearnce [#12](https://github.com/Autodesk/ADNetPromoterScoreSurvey-iOS/pull/12) 
 
